@@ -3,26 +3,36 @@
 
 <head>
 	<meta charset="utf-8" />
+	<!-- Page title that appears in the browser tab -->
 	<title>Home | The Html Pizza Company</title>
-	<meta name="author" content="Justine" />
-	<meta name="description" content="A concise and accurate summary of the document content is to appear here">
+	<meta name="author" content="Justine G" />
+	<meta name="description" content="An online pizza order form where customers can customize their pizza and place an order.">
+	<!-- small icon that appears in the browser tab -->
 	<link rel="shortcut icon" href="images/pizzaicon.png" type="image/x-icon" />
+	 <!--CSS file for page styling -->
 	<link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
+	<!-- Header Section: Company name, logo, and slogan -->
 	<header>
+		<!-- added image-->
 		<h1><img src="images/pizzaicon.png" alt="Pizza Logo" height="150" width="150" />The HTML Pizza Company</h1>
 		<h2><q>Fast, Fresh, and Delicious</q></h2>
 		<hr>
 	</header>
+	<!-- Main Section -->
 	<main>
-		<p><strong>Craving pizza?</strong> You’ve come to the right place! Fill out the form below to build your ideal
-			pizza — <em>fresh, hot, and made just the way you like it.</em></p>
+		<!-- Intro paragraph -->
+		<p><strong>Craving pizza?</strong> You've come to the right place! Fill out the form below to build your ideal
+			pizza - <em>fresh, hot, and made just the way you like it.</em></p>
 
+		<!-- Main heading -->
 		<h2>Order Your Pizza</h2>
+		<!-- Beggining of Order Form -->
 		<form action="#" method="post">
 
+			<!-- Determines Order type (carryout or delivery)-->
 			<fieldset>
 				<legend>Order Type:</legend>
 
@@ -33,6 +43,7 @@
 				<label for="delivery">Delivery</label>
 			</fieldset>
 			<br>
+			<!--Personal Information Section -->
 			<fieldset>
 				<legend>Personal Information</legend>
 
@@ -49,11 +60,14 @@
 				<input type="text" id="address" name="address"><br>
 			</fieldset>
 			<br>
+			<!-- Pizza Ordering Section (Size,Crust,etc)-->
 			<fieldset>
 				<legend>Pizza Order</legend>
 
+				<!-- size selection-->
 				<label for="size">Choose a size:</label><br>
 
+				<!--added image-->
 				<img src="images/pizza-size-chart.png" alt="Pizza size chart" height="200" width="500" />
 
 				<select id="size" name="size">
@@ -63,6 +77,7 @@
 					<option value="extra-large">X-Large</option>
 				</select><br><br>
 
+				<!--curst type selection -->
 				<label>Choose your crust:</label><br>
 
 				<input type="radio" id="handtossed" name="crust" value="handtossed" checked>
@@ -77,8 +92,10 @@
 				<input type="radio" id="pan" name="crust" value="pan">
 				<label for="pan">Pan</label><br><br>
 
+				<!--toppings selection -->
 				<label>Select your toppings:</label><br>
 
+				<!--meat toppings -->
 				<fieldset>
 					<legend>Meats</legend>
 
@@ -98,6 +115,7 @@
 					<label for="chicken">Chicken</label><br>
 				</fieldset>
 				<br>
+				<!--veggie toppings -->
 				<fieldset>
 					<legend>Veggies</legend>
 
@@ -124,18 +142,23 @@
 				</fieldset>
 				<br>
 
+				<!--Special instructions-->
 				<label for="instructions">Special Instructions:</label><br>
 				<textarea id="instructions" name="instructions" rows="4" cols="40"></textarea>
 				<br><br>
 				
+				<!--quantity amount -->
 				<label for="quantity">Pizza Quantity:</label><br>
 				<input type="number" id="quantity" name="quantity" min="1" max="10" value="1"><br><br>
 			</fieldset>
 			<br>
+			<!--form buttons -->
 			<input type="reset" value="Clear">
 			<input type="submit" value="Add Pizza">
+		<!-- end of order form -->
 		</form>
 	</main>
+	<!--footer section(copyright) -->
 	<footer>
 		<p><small>© The Html Pizza Company.</small></p>
 	</footer>

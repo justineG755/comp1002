@@ -39,7 +39,7 @@ h3{
 [href$=".pdf"]{
 	color:red; /*targets only linkz to PDF documents*/
 }
-/* STEP7b: Try some other regular expression type variations -
+/* STEP7b: Try some oter regular expression type variations -
 
 	[attr|="val"] - all elements with the attribute attr for which the value is exactly "val" or starts with "val-" (the trailing dash here handles language codes)
 	[attr^="val"] - all elements with the attribute attr for which the value starts with "val"

@@ -6,10 +6,11 @@
 	<!-- Page title that appears in the browser tab -->
 	<title>Home | The Html Pizza Company</title>
 	<meta name="author" content="Justine G" />
-	<meta name="description" content="An online pizza order form where customers can customize their pizza and place an order.">
+	<meta name="description"
+		content="An online pizza order form where customers can customize their pizza and place an order.">
 	<!-- small icon that appears in the browser tab -->
 	<link rel="shortcut icon" href="images/pizzaicon.png" type="image/x-icon" />
-	 <!--CSS file for page styling -->
+	<!--CSS file for page styling -->
 	<link rel="stylesheet" href="css/styles.css" />
 </head>
 
@@ -38,9 +39,16 @@
 
 				<input type="radio" id="carryout" name="orderType" value="carryout" checked>
 				<label for="carryout">Carry-Out</label>
-				
+
 				<input type="radio" id="delivery" name="orderType" value="delivery">
 				<label for="delivery">Delivery</label>
+			</fieldset>
+			<br>
+			<!-- Delivery date section -->
+			<fieldset>
+				<legend>Order Date</legend>
+				<label for="orderDate">Select your order date:</label>
+				<input type="date" id="orderDate" name="orderDate">
 			</fieldset>
 			<br>
 			<!--Personal Information Section -->
@@ -51,13 +59,15 @@
 				<input type="text" id="name" name="name" required><br>
 
 				<label for="phone">Phone Number:</label>
-				<input type="tel" id="phone" name="phone" placeholder="(000) 000 0000" required><br>
+				<input type="tel" id="phone" name="phone" placeholder="123-456-7890"
+					pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+
 
 				<label for="email">Email:</label>
-				<input type="email" id="email" name="email"><br>
+				<input type="email" id="email" name="email" placeholder="*optional*"><br>
 
 				<label for="address">Address:</label>
-				<input type="text" id="address" name="address"><br>
+				<input type="text" id="address" name="address" placeholder="*for delivery*"><br>
 			</fieldset>
 			<br>
 			<!-- Pizza Ordering Section (Size,Crust,etc)-->
@@ -144,9 +154,10 @@
 
 				<!--Special instructions-->
 				<label for="instructions">Special Instructions:</label><br>
-				<textarea id="instructions" name="instructions" rows="4" cols="40"></textarea>
+				<textarea id="instructions" name="instructions" rows="4" cols="40" placeholder="e.g. Clean cutter, Red flakes, Cut into squares..."></textarea>
+
 				<br><br>
-				
+
 				<!--quantity amount -->
 				<label for="quantity">Pizza Quantity:</label><br>
 				<input type="number" id="quantity" name="quantity" min="1" max="10" value="1"><br><br>
@@ -155,7 +166,7 @@
 			<!--form buttons -->
 			<input type="reset" value="Clear">
 			<input type="submit" value="Add Pizza">
-		<!-- end of order form -->
+			<!-- end of order form -->
 		</form>
 	</main>
 	<!--footer section(copyright) -->

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+html, body {
+   height: 200vh;
+}
+
+html {
+  background-image: url("../images/babydriverposter.png");
+  background-repeat: no-repeat;  /* don’t tile the image */
+  background-position: center;   /* center it perfectly */
+  background-color: black;       /* fill the sides/top/bottom with color */
+}

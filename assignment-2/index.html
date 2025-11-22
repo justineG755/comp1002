@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
 	<meta charset="utf-8" />
 	<!-- Page title that appears in the browser tab -->
@@ -11,27 +10,35 @@
 	<!--CSS file for page styling -->
 	<link rel="stylesheet" href="css/styles.css" />
 
+	<!-- google fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@100..900&family=Saira+Stencil+One&display=swap"
 		rel="stylesheet">
+</head>
 
 <body>
+	<!-- Poster container to keep it fixed and from moving -->
 	<div class="poster">
 
-	<header>
-		<ul>
-			<li><span class="small">ANSEL</span> <span class="large">ELGORT</span></li>
-			<li><span class="small">KEVIN</span> <span class="large">SPACEY</span></li>
-			<li><span class="small">LILY</span> <span class="large">JAMES</span></li>
-			<li><span class="small">EIZA</span> <span class="large">GONZALEZ</span></li>
-			<li><span class="xtr-small">with</span> <span class="small">JON</span> <span class="large">HAMM</span></li>
-			<li><span class="xtr-small">and</span> <span class="small">JAMIE</span> <span class="large">FOXX</span></li>
-		</ul>
-	</header>
+		<!-- Cast list -->
+		<!-- used a list for cast names and classes to format the different sizes for the names -->
+		<header>
+			<ul>
+				<li><span class="small">ANSEL</span> <span class="large">ELGORT</span></li>
+				<li><span class="small">KEVIN</span> <span class="large">SPACEY</span></li>
+				<li><span class="small">LILY</span> <span class="large">JAMES</span></li>
+				<li><span class="small">EIZA</span> <span class="large">GONZALEZ</span></li>
+				<li><span class="xtr-small">with</span> <span class="small">JON</span> <span class="large">HAMM</span>
+				</li>
+				<li><span class="xtr-small">and</span> <span class="small">JAMIE</span> <span class="large">FOXX</span>
+				</li>
+			</ul>
+		</header>
 
-	
+		<!-- Title area -->
+		<!-- used headings and used paragraph classes to be able to format position seperately -->
 		<main>
 			<section>
 				<h2>Written and Directed by</h2>
@@ -41,18 +48,34 @@
 				<p class="slogan">ALL YOU NEED IS ONE KILLER TRACK.</p>
 			</section>
 		</main>
-		
-	
 
-	<footer>
-		TRISTAR PICTURES <small>AND</small> MRC <small>PRESENT A</small> WORKING TITLE/BIG TALK PICTURES PRODUCTION A FILM BY EDGAR WRIGHT "BABY
-		DRIVER" JON BERNTHAL <small class ="stack">CASTED<br> BY</small> FRANCINE MAISLER <br> <small class ="stack">MUSIC <br> BY</small>  STEVEN PRICE <small class ="stack">COSTUME<br>DEIGNER</small> COURTNEY HOFFMAN <small class ="stack">EDITORS</small>
-		PAUL MACHLISS.<small>ACE</small> JONATHAN AMOS.<small>ACE</small> <small class ="stack">PRODUCTION<br>DESIGNER</small>MARCUS ROWLAND <small class ="stack">DIRECTOR OF<br>PHOTOGRAPHY</small> BILL POPE.<small>ACE</small> <br>
-		<small class ="stack">EXECUTIVE<br>PRODUCERS</small>EDGAR WRIGHT ADAM MERIMS RACHEL PRIOR LIZA CHASIN MICHELLE WRIGHT <small class ="stack">PRODUCED<br> BY</small> NIRA PARK TIM
-		BEVAN ERIC FELLNER<small class ="stack">WRITTEN AND<br>DIRECTED BY</small> EDGAR WRIGHT
-	</footer>
-</div>
+
+		<!-- Production credits -->
+		<!-- used <small> to create smaller fonts and the class "stack" to be able to stack the smaller fonts -->
+		<footer>
+			TRISTAR PICTURES <small>AND</small> MRC <small>PRESENT A</small> WORKING TITLE/BIG TALK PICTURES PRODUCTION
+			A FILM BY EDGAR WRIGHT "BABY
+			DRIVER" JON BERNTHAL <small class="stack">CASTED<br> BY</small> FRANCINE MAISLER <br> <small
+				class="stack">MUSIC <br> BY</small> STEVEN PRICE <small class="stack">COSTUME<br>DEIGNER</small>
+			COURTNEY HOFFMAN <small class="stack">EDITORS</small>
+			PAUL MACHLISS.<small>ACE</small> JONATHAN AMOS.<small>ACE</small> <small
+				class="stack">PRODUCTION<br>DESIGNER</small>MARCUS ROWLAND <small class="stack">DIRECTOR
+				OF<br>PHOTOGRAPHY</small> BILL POPE.<small>ACE</small> <br>
+			<small class="stack">EXECUTIVE<br>PRODUCERS</small>EDGAR WRIGHT ADAM MERIMS RACHEL PRIOR LIZA CHASIN
+			MICHELLE WRIGHT <small class="stack">PRODUCED<br> BY</small> NIRA PARK TIM
+			BEVAN ERIC FELLNER<small class="stack">WRITTEN AND<br>DIRECTED BY</small> EDGAR WRIGHT
+
+			<!-- hyperlinks for movie website and reviews -->
+			<nav>
+				<ul>
+					<li><a href="https://www.sonypictures.com/movies/babydriver" title="Movie Website for Baby Driver">Movie Website | Baby Driver</a>
+					</li>
+					<li><a href="https://www.rottentomatoes.com/m/baby_driver" title="Reviews for Baby Driver">Reviews | Baby Driver</a></li>
+				</ul>
+			</nav>
+
+		</footer>
+	</div>
 </body>
-
 
 </html>

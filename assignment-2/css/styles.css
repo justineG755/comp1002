@@ -62,6 +62,7 @@ main {
    margin-left: 35px;
 }
 
+/* top line */
 h2 {
    font-family: "Saira Stencil One", sans-serif;
    font-size: 8.5px;
@@ -70,6 +71,7 @@ h2 {
    margin-bottom: 0px; 
 }
 
+/* movie name */
 h1 {
    font-family: "Saira Stencil One", sans-serif;
    font-size: 70px;
@@ -80,6 +82,7 @@ h1 {
    transform: scaleY(1.4);
 }
 
+/* rest of the title area */
 main p {
    font-family: "Noto Sans JP", sans-serif;
    font-weight: 700;
@@ -88,15 +91,17 @@ main p {
    margin-top: 0;
 }
 
+/* director name */
 .director {
    margin-bottom: 22px;
 }
 
+/* slogan  */
 .slogan {
    margin-top: 16px;
 }
 
-/* copyright area */
+/* production area */
 footer {
    position: absolute;
    margin-left: 32px;
@@ -111,6 +116,7 @@ footer {
    line-height: 0.9;
 }
 
+/* small stacked word */
 .stack {
   font-size: 4.8px;
   letter-spacing: 0.2px;

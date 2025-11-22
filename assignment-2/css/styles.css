@@ -98,5 +98,23 @@ main p {
 
 /* copyright area */
 footer {
-   color: transparent;
+   position: absolute;
+   margin-left: 32px;
+   margin-top: 875px; 
+   color: rgba(73, 54, 54, 0.686);
+   font-family: "Noto Sans JP", sans-serif;
+   font-size: 7.5px;
+   font-weight: 700;
+   letter-spacing: -0.75px;
+   text-align: center;
+   transform: scaleY(2);
+   line-height: 0.9;
+}
+
+.stack {
+  font-size: 4.8px;
+  letter-spacing: 0.2px;
+  display: inline-block;
+  text-align: right; 
+  line-height: 0.7; 
 }

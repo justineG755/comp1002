@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+html {
+   background-image: url("../images/babydriverposter.png");
+   background-size: 580px 900px;
+   background-repeat: no-repeat;
+   background-position: 200px 10px;
+   background-color: black;
+}
+

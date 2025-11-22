@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<!-- Page title that appears in the browser tab -->
+	<title>Home | The Html Pizza Company</title>
+	<meta name="author" content="Justine G" />
+	<meta name="description"
+		content="An online pizza order form where customers can customize their pizza and place an order.">
+	<!-- small icon that appears in the browser tab -->
+	<link rel="shortcut icon" href="images/pizzaicon.png" type="image/x-icon" />
+	<!--CSS file for page styling -->
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+	<!-- Header Section: Company name, logo, and slogan -->
+	<header>
+		<!-- added image-->
+		<h1><img src="images/pizzaicon.png" alt="Pizza Logo" height="150" width="150" />The HTML Pizza Company</h1>
+		<h2><q>Fast, Fresh, and Delicious</q></h2>
+		<hr>
+	</header>
+	<!-- Main Section -->
+	<main>
+		<!-- Intro paragraph -->
+		<p><strong>Craving pizza?</strong> You've come to the right place! Fill out the form below to build your ideal
+			pizza - <em>fresh, hot, and made just the way you like it.</em></p>
+
+		<!-- Main heading -->
+		<h2>Order Your Pizza</h2>
+		<!-- Beggining of Order Form -->
+		<form action="#" method="post">
+
+			<!-- Determines Order type (carryout or delivery)-->
+			<fieldset>
+				<legend>Order Type:</legend>
+
+				<input type="radio" id="carryout" name="orderType" value="carryout" checked>
+				<label for="carryout">Carry-Out</label>
+
+				<input type="radio" id="delivery" name="orderType" value="delivery">
+				<label for="delivery">Delivery</label>
+			</fieldset>
+			<br>
+			<!-- Delivery date section -->
+			<fieldset>
+				<legend>Order Date</legend>
+				<label for="orderDate">Select your order date:</label>
+				<input type="date" id="orderDate" name="orderDate">
+			</fieldset>
+			<br>
+			<!--Personal Information Section -->
+			<fieldset>
+				<legend>Personal Information</legend>
+
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required><br>
+
+				<label for="phone">Phone Number:</label>
+				<input type="tel" id="phone" name="phone" placeholder="123-456-7890"
+					pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="*optional*"><br>
+
+				<label for="address">Address:</label>
+				<input type="text" id="address" name="address" placeholder="*for delivery*"><br>
+			</fieldset>
+			<br>
+			<!-- Pizza Ordering Section (Size,Crust,etc)-->
+			<fieldset>
+				<legend>Pizza Order</legend>
+
+				<!-- size selection-->
+				<label for="size">Choose a size:</label><br>
+
+				<!--added image-->
+				<img src="images/pizza-size-chart.png" alt="Pizza size chart" height="200" width="500" />
+
+				<select id="size" name="size">
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+					<option value="extra-large">X-Large</option>
+				</select><br><br>
+
+				<!--curst type selection -->
+				<label>Choose your crust:</label><br>
+
+				<input type="radio" id="handtossed" name="crust" value="handtossed" checked>
+				<label for="handtossed">Hand-Tossed</label>
+
+				<input type="radio" id="gluten" name="crust" value="gluten">
+				<label for="gluten">Gluten-Free</label>
+
+				<input type="radio" id="thin" name="crust" value="thin">
+				<label for="thin">Thin</label>
+
+				<input type="radio" id="pan" name="crust" value="pan">
+				<label for="pan">Pan</label><br><br>
+
+				<!--toppings selection -->
+				<label>Select your toppings:</label><br>
+
+				<!--meat toppings -->
+				<fieldset>
+					<legend>Meats</legend>
+
+					<input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
+					<label for="pepperoni">Pepperoni</label><br>
+
+					<input type="checkbox" id="sausage" name="topping" value="sausage">
+					<label for="sausage">Sausage</label><br>
+
+					<input type="checkbox" id="bacon" name="topping" value="bacon">
+					<label for="bacon">Bacon</label><br>
+
+					<input type="checkbox" id="beef" name="topping" value="beef">
+					<label for="beef">Beef</label><br>
+
+					<input type="checkbox" id="chicken" name="topping" value="chicken">
+					<label for="chicken">Chicken</label><br>
+				</fieldset>
+				<br>
+				<!--veggie toppings -->
+				<fieldset>
+					<legend>Veggies</legend>
+
+					<input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+					<label for="mushrooms">Mushrooms</label><br>
+
+					<input type="checkbox" id="onions" name="topping" value="onions">
+					<label for="onions">Onions</label><br>
+
+					<input type="checkbox" id="peppers" name="topping" value="peppers">
+					<label for="peppers">Green Peppers</label><br>
+
+					<input type="checkbox" id="spinach" name="topping" value="spinach">
+					<label for="spinach">Spinach</label><br>
+
+					<input type="checkbox" id="tomato" name="topping" value="tomato">
+					<label for="tomato">Tomatos</label><br>
+
+					<input type="checkbox" id="pineapple" name="topping" value="pineapple">
+					<label for="pineapple">Pineapples</label><br>
+
+					<input type="checkbox" id="olive" name="topping" value="olive">
+					<label for="olive">Olives</label><br>
+				</fieldset>
+				<br>
+
+				<!--Special instructions-->
+				<label for="instructions">Special Instructions:</label><br>
+				<textarea id="instructions" name="instructions" rows="4" cols="40" placeholder="e.g. Clean cutter, Red flakes, Cut into squares..."></textarea>
+
+				<br><br>
+
+				<!--quantity amount -->
+				<label for="quantity">Pizza Quantity:</label><br>
+				<input type="number" id="quantity" name="quantity" min="1" max="10" value="1"><br><br>
+			</fieldset>
+			<br>
+			<!--form buttons -->
+			<input type="reset" value="Clear">
+			<input type="submit" value="Add Pizza">
+			<!-- end of order form -->
+		</form>
+	</main>
+	<!--footer section(copyright) -->
+	<footer>
+		<p><small>© The Html Pizza Company.</small></p>
+	</footer>
+</body>
+
+</html>

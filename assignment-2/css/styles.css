@@ -4,60 +4,99 @@ html {
    background-image: url("../images/babydriverposter.png");
    background-size: 580px 900px;
    background-repeat: no-repeat;
-   background-position: 200px 10px;
+   background-position: center;
    background-color: black;
+   background-position-y: 60px;
 }
 
+.poster {
+    width: 600px;        
+    height: 1000px;       
+    position: relative; 
+    margin: auto;      
+}
+
+/* cast list */
 header,
 ul {
+   position: absolute; 
    color: rgb(247, 203, 169);
    font-family: "Noto Sans JP", sans-serif;
    list-style-type: none;
-   margin-left: 278px;
-   margin-top: 24px;
-   width: 200px;
    text-align: right;
-   font-weight: 700;
    transform: scaleX(0.9);
+   margin-left: 185px;
+   margin-top: 32px;
+   width: 200px;
+   font-weight: 700;
 }
 
-li{
+/* spacing for individual item */
+li {
    margin-bottom: 9px;
 }
 
+/* last name */
 .large {
    font-size: 23px;
    letter-spacing: -1px;
 }
 
+/* first name */
 .small {
    font-size: 16px;
    letter-spacing: -1.5px;
 }
 
+/* tiny words */
 .xtr-small {
    font-size: 10px;
    letter-spacing: -0.5px;
 }
 
-main{
-   color: white;
+/* title area */
+main {
+   position: absolute;
+   color: rgb(244, 222, 177);
+   margin-top: 660px;
+   margin-left: 35px;
 }
 
- h1{
-   color: rgb(244, 222, 177);
+h2 {
+   font-family: "Saira Stencil One", sans-serif;
+   font-size: 8.5px;
+   line-height: 0.1;
+   letter-spacing: -0.1px;
+   margin-bottom: 0px; 
+}
+
+h1 {
    font-family: "Saira Stencil One", sans-serif;
    font-size: 70px;
    line-height: 0.8;
-   margin-left: 220px;
-   margin-top: 316px;
-   letter-spacing: 1px;
+   margin-top: 0;
+   margin-bottom: 5px;
+   letter-spacing: 1.2px;
    transform: scaleY(1.4);
-   
-   
-
 }
 
-footer{
+main p {
+   font-family: "Noto Sans JP", sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   letter-spacing: -0.5px;
+   margin-top: 0;
+}
+
+.director {
+   margin-bottom: 22px;
+}
+
+.slogan {
+   margin-top: 16px;
+}
+
+/* copyright area */
+footer {
    color: transparent;
 }

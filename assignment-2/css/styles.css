@@ -44,6 +44,20 @@ main{
    color: white;
 }
 
+ h1{
+   color: rgb(244, 222, 177);
+   font-family: "Saira Stencil One", sans-serif;
+   font-size: 70px;
+   line-height: 0.8;
+   margin-left: 220px;
+   margin-top: 316px;
+   letter-spacing: 1px;
+   transform: scaleY(1.4);
+   
+   
+
+}
+
 footer{
-   color: white;
+   color: transparent;
 }

@@ -1,13 +1,31 @@
+
+.rainbow {
+    height: 55px;
+    background: linear-gradient(
+        to right,
+        #f9d423,  
+        #ff6f31,  
+        #ff3131,  
+        #008cff,  
+        #16d96b   
+    );
+    border-radius: 16px;
+}
+
+/* Header */
 header {
-    background-color: rgb(249, 233, 245);
-    padding: 20px;
+    background-color: rgb(218, 212, 212);
+    padding: 5px;
     text-align: center;
 }
 
 nav {
-    background-color: #f4cde1;
+    background-color: white;
     padding: 5px;
+    border-radius: 26px;
+    max-width: 1000px; 
     text-align: center;
+    margin: 8px auto; 
 }
 
 nav a {
@@ -21,18 +39,36 @@ nav li {
 }
 
 nav a:hover {
-    background-color: #f3a9c4; 
+    background-color:rgb(218, 212, 212); 
     padding: 5px 10px; 
-    border-radius: 10px;
+    border-radius: 20px;
     text-decoration: none; 
 }
 
 header h1{
     font-size: 60px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header nav{
      font-size: 22px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.rainbow {
+    height: 55px;
+    background: linear-gradient(
+        to right,
+        #f9d423,  
+        #ff6f31,  
+        #ff3131,  
+        #008cff,  
+        #16d96b   
+    );
+    border-radius: 16px;
+}
+
+body {
+    background-color: white; 
+}
+

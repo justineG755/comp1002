@@ -129,7 +129,28 @@ main ul li::before {
     background: white;
     padding-bottom: 80px;
     margin-right: 35px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
+.photo-row img {     
+    margin: 10px;      
+    display: inline-block;
+    border: 20px solid white;
+    background: white;  
+    padding-bottom: 60px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    width: 220px;      
+    height: 260px;           
+}
 
+.photo-row {
+    text-align: center; 
+}
+
+footer {
+    background-color: rgb(218, 212, 212);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
 

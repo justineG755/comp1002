@@ -1,17 +1,4 @@
 
-.rainbow {
-    height: 55px;
-    background: linear-gradient(
-        to right,
-        #f9d423,  
-        #ff6f31,  
-        #ff3131,  
-        #008cff,  
-        #16d96b   
-    );
-    border-radius: 16px;
-}
-
 /* Header */
 header {
     background-color: rgb(218, 212, 212);
@@ -39,7 +26,7 @@ nav li {
 }
 
 nav a:hover {
-    background-color:rgb(218, 212, 212); 
+    background-color:rgb(247, 238, 238); 
     padding: 5px 10px; 
     border-radius: 20px;
     text-decoration: none; 
@@ -71,4 +58,78 @@ header nav{
 body {
     background-color: white; 
 }
+
+main { 
+    margin: 50px auto;    
+    padding: 40px;
+    background-color: #ede9e9; 
+    box-shadow: 0 0 100px rgba(8, 8, 8, 10); 
+    max-width: 1200px;
+}
+
+main h2{
+     font-size: 37px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main p {
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main h3{
+    font-size: 26px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     margin-top: 54px;
+}
+
+main h4{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main hr{
+    height: 8px;
+    background: linear-gradient(
+        to right,
+        #f9d423,  
+        #ff6f31,  
+        #ff3131,  
+        #008cff,  
+        #16d96b   
+    );
+}
+
+main ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+main  li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+main ul li::before {
+    content: "✦";  
+    position: absolute;
+    left: 2px;
+    color: #e0d206; 
+    font-size: 18px;
+}
+
+.Home-img {
+    width: 340px;
+    float: right;
+    border: 20px solid white;
+    background: white;
+    padding-bottom: 80px;
+    margin-right: 35px;
+}
+
+
 

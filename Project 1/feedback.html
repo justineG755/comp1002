@@ -28,19 +28,41 @@
         <hr>
 
         <h3>Let us Know Your Thoughts</h3>
+        <p>We would love to hear what you think about the Polaroid Instant Camera 600. <br>
+        Share your thoughts or rate your experience below.</p>
 
-        <hr>
+        <form>
+            <fieldset>
 
-        <h3>Leave a Rating</h3>
+                <legend>Leave a Rating</legend>
+                <p>Select one:</p>
+                <label><input type="radio" name="recommend" value="yes"> Yes, I would recommend it</label><br>
+                <label><input type="radio" name="recommend" value="no"> No, I wouldn’t recommend it</label><br><br>
+            </fieldset>
+            <br><br>
+            <fieldset>
 
-        <h3>Share Your Comments</h3>
+                <legend>Share Your Comments</legend>
+                <br>
+                <label for="comments">Your Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
 
-        <h4>Your Information</h4>
+                <h4>Your Information</h4>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
 
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email">
+                <br><br>
+
+                <input type="submit" value="Submit Feedback">
+
+            </fieldset>
+        </form>
     </main>
 
     <footer>
-         <p><small>© 1980 Polaroid Corporation | <a href="support.html">Contact us</a></small></p>
+        <p><small>© 1980 Polaroid Corporation | <a href="support.html">Contact us</a></small></p>
     </footer>
 
 </body>

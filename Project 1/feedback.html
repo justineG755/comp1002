@@ -8,6 +8,8 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
+<script src="js/feedback.js"></script>
+
 <body>
     <header>
         <h1>Polaroid Instant Camera 600</h1>
@@ -38,10 +40,12 @@
         <form class="feedback">
             <fieldset>
 
-                <legend>Leave a Rating ★ ★ ★ ★ ★ </legend>
+                <legend>Leave a Rating ★ ★ ★ ★ ★ </legend> <!-- star icons from https://www.symbolcopy.com/star-symbol.html -->
                 <p><strong>Select one:</strong></p>
-                <label><input type="radio" name="recommend" value="yes"> <strong>Yes</strong>, I would recommend it</label>
-                <label><input type="radio" name="recommend" value="no"> <strong>No</strong>, I wouldn’t recommend it</label><br><br>
+                <label><input type="radio" name="recommend" id="yes"> <strong>Yes</strong>, I would recommend it</label>
+                <label><input type="radio" name="recommend" id="no"> <strong>No</strong>, I wouldn’t recommend it</label><br><br>
+
+                <p id="ratingMessage"></p>
             </fieldset>
             <br>
             <fieldset>

@@ -1,5 +1,5 @@
 
-/* Header */
+
 header {
     background-color: rgb(218, 212, 212);
     padding: 5px;
@@ -64,7 +64,7 @@ main {
     padding: 40px;
     background-color: #ede9e9; 
     box-shadow: 0 0 100px black; 
-    max-width: 1300px;
+    max-width: 90%;
 }
 
 main h2{
@@ -203,26 +203,25 @@ main section{
 .feedback input[type="radio"] {
  transform: scale(1.3);
  margin-right: 10px;
- margin-left: 24.3px;
+
 }
 
 .feedback textarea {
-  width: 500px;
+  width: 450px;
   height: 100px;
 }
 
 .feedback input[type="text"],
 .feedback input[type="email"]{
-    width: 300px;
+    width: 190px;
     height: 25px;
 }
 
 .feedback label {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  display: inline-block;
-  margin-right: 80px;
- 
+  margin-right: 50px;
+
 }
 
 .feedback input[type="submit"] {
@@ -235,10 +234,13 @@ main section{
 
 .feedback fieldset {
   border: 3px dotted black;
+  width: 85%;
+  margin: auto;
   padding: 25px;
   border-radius: 10px;
   padding-top: 1px;
   padding-bottom: 40px;
+  text-align: center;
 }
 
 .feedback legend {

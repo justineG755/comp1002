@@ -63,7 +63,7 @@ main {
     margin: 50px auto;    
     padding: 40px;
     background-color: #ede9e9; 
-    box-shadow: 0 0 100px rgba(8, 8, 8, 10); 
+    box-shadow: 0 0 100px black; 
     max-width: 1200px;
 }
 
@@ -129,7 +129,7 @@ main ul li::before {
     background: white;
     padding-bottom: 80px;
     margin-right: 35px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 10px black;
 }
 
 .photo-row img {     
@@ -138,13 +138,31 @@ main ul li::before {
     border: 20px solid white;
     background: white;  
     padding-bottom: 60px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 10px black;
     width: 220px;      
     height: 260px;           
 }
 
 .photo-row {
     text-align: center; 
+}
+
+.polaroids:hover {
+  transform: scale(1.22);
+}
+
+.history-photo {
+  display: block;
+  width: 900px;
+  margin: auto;
+  box-shadow: 0 3px 25px black;
+}
+
+.quote{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
 }
 
 footer {

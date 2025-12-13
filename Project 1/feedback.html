@@ -3,8 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- Page title that appears in the browser tab -->
     <title>Polaroid Camera | Feedback </title>
+     <!-- icon in browser tab -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!--CSS file for page styling -->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
@@ -12,7 +15,9 @@
 
 <body>
     <header>
+         <!-- main title -->
         <h1>Polaroid Instant Camera 600</h1>
+         <!-- navigation -->
         <nav>
             <ul>
                 <li><a href="index.html" title="Go to the Home page">Home</a></li>
@@ -22,11 +27,12 @@
                 <li><a href="feedback.html" title="Rate or add feedback">Feedback</a></li>
             </ul>
         </nav>
+         <!-- added a rainbow bar -->
          <div class="rainbow"></div>
     </header>
 
     <main>
-
+        <!-- main content -->
         <h2>Feedback Form</h2>
         <hr>
 
@@ -37,10 +43,13 @@
         <br>
         </div>
 
+        <!-- feedback form -->
         <form class="feedback">
+            <!-- fieldset box -->
             <fieldset>
-
+                <!-- Rating section -->
                 <legend>Leave a Rating ★ ★ ★ ★ ★ </legend> <!-- star icons from https://www.symbolcopy.com/star-symbol.html -->
+                <!-- yes or no radio buttons -->
                 <p><strong>Select one:</strong></p>
                 <label><input type="radio" name="recommend" id="yes"> <strong>Yes</strong>, I would recommend it</label>
                 <label><input type="radio" name="recommend" id="no"> <strong>No</strong>, I wouldn’t recommend it</label><br><br>
@@ -48,33 +57,39 @@
                 <p id="ratingMessage"></p>
             </fieldset>
             <br>
+            <!-- fieldset box -->
             <fieldset>
-
+                <!-- comment section -->
                 <legend>Share Your Comments</legend>
                 <br>
                 <label for="comments"><strong>Your Comments:</strong></label><br>
                 <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br>
 
-                
+                <!-- name section -->
                 <label for="name"><strong>Name:</strong></label><br>
                 <input type="text" id="name" name="name"><br><br>
 
+                <!-- email section -->
                 <label for="email"><strong>Email</strong>:</label><br>
                 <input type="email" id="email" name="email">
                 <br><br>
 
+                <!-- submit button -->
                 <input type="submit" value="Submit Feedback">
-
             </fieldset>
         </form>
+
         <br>
         <hr>
     </main>
 
     <footer>
+        <!-- fake copyright and navigation to "contact us" -->
         <p><small>© 1980 Polaroid Corporation | <a href="support.html#contact">Contact us</a></small></p>
     </footer>
-<script src="js/feedback.js"></script>
+
+    <!-- links to feedback javascript file-->
+    <script src="js/feedback.js"></script>
 </body>
 
 </html>

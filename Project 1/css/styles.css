@@ -1,5 +1,3 @@
-
-
 header {
     background-color: rgb(218, 212, 212);
     padding: 5px;
@@ -10,9 +8,9 @@ nav {
     background-color: white;
     padding: 5px;
     border-radius: 26px;
-    max-width: 1000px; 
+    max-width: 1000px;
     text-align: center;
-    margin: auto; 
+    margin: auto;
 }
 
 nav a {
@@ -26,78 +24,74 @@ nav li {
 }
 
 nav a:hover {
-    background-color:rgb(247, 238, 238); 
-    padding: 10px 10px; 
+    background-color: rgb(247, 238, 238);
+    padding: 10px 10px;
     border-radius: 10px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
-header h1{
+header h1 {
     font-size: 70px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header nav{
+header nav {
     font-size: 28px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .rainbow {
     height: 55px;
-    background: linear-gradient(
-        to right,
-        #f9d423,  
-        #ff6f31,  
-        #ff3131,  
-        #008cff,  
-        #16d96b   
-    );
+    background: linear-gradient(to right,
+            #f9d423,
+            #ff6f31,
+            #ff3131,
+            #008cff,
+            #16d96b);
     border-radius: 16px;
 }
 
 body {
-    background-color: white; 
+    background-color: white;
 }
 
-main { 
-    margin: 50px auto;    
+main {
+    margin: 50px auto;
     padding: 40px;
-    background-color: #ede9e9; 
-    box-shadow: 0 0 100px black; 
+    background-color: #ede9e9;
+    box-shadow: 0 0 100px black;
     max-width: 90%;
 }
 
-main h2{
-     font-size: 37px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+main h2 {
+    font-size: 37px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main p {
     font-size: 18px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main h3{
+main h3 {
     font-size: 26px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-     margin-top: 54px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 54px;
 }
 
-main h4{
+main h4 {
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main hr{
+main hr {
     height: 8px;
-    background: linear-gradient(
-        to right,
-        #f9d423,  
-        #ff6f31,  
-        #ff3131,  
-        #008cff,  
-        #16d96b   
-    );
+    background: linear-gradient(to right,
+            #f9d423,
+            #ff6f31,
+            #ff3131,
+            #008cff,
+            #16d96b);
 }
 
 main ul {
@@ -105,7 +99,7 @@ main ul {
     padding-left: 0;
 }
 
-main  li {
+main li {
     position: relative;
     padding-left: 25px;
     margin-bottom: 12px;
@@ -115,10 +109,10 @@ main  li {
 
 
 main ul li::before {
-    content: "✦";  
+    content: "✦";
     position: absolute;
     left: 2px;
-    color: #e0d206; 
+    color: #e0d206;
     font-size: 18px;
 }
 
@@ -132,54 +126,54 @@ main ul li::before {
     box-shadow: 0 4px 10px black;
 }
 
-.photo-row img {     
-    margin: 10px;      
+.photo-row img {
+    margin: 10px;
     display: inline-block;
     border: 20px solid white;
-    background: white;  
+    background: white;
     padding-bottom: 60px;
     box-shadow: 0 4px 10px black;
-    width: 220px;      
-    height: 260px;           
+    width: 220px;
+    height: 260px;
 }
 
 .photo-row {
-    text-align: center; 
+    text-align: center;
 }
 
 .polaroids:hover {
-  transform: scale(1.22);
+    transform: scale(1.22);
 }
 
 .history-photo {
-  display: block;
-  width: 900px;
-  margin: auto;
-  box-shadow: 0 3px 25px black;
+    display: block;
+    width: 900px;
+    margin: auto;
+    box-shadow: 0 3px 25px black;
 }
 
-.quote{
+.quote {
     font-size: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-style: italic;
 }
 
-main section{
-  background-color: #fcfbf7;
-  padding: 15px;
-  margin: 22px;
-  border-radius: 12px;
-  box-shadow: 0 3px 15px black;
-  padding-left: 50px;
-  padding-bottom: 50px;
+main section {
+    background-color: #fcfbf7;
+    padding: 15px;
+    margin: 22px;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px black;
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-.logo-img{
+.logo-img {
     width: 300px;
     float: right;
     margin-right: 38px;
@@ -188,65 +182,65 @@ main section{
 }
 
 .feedback {
-  line-height: 2;
-  background-color: #fcf7f7;
-  padding: 50px;
-  margin: 150px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-left: 50px;
-  padding-bottom: 50px;
-  border-radius: 8px;
-  box-shadow: 0 3px 15px black;
+    line-height: 2;
+    background-color: #fcf7f7;
+    padding: 50px;
+    margin: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border-radius: 8px;
+    box-shadow: 0 3px 15px black;
 }
 
 .feedback input[type="radio"] {
- transform: scale(1.3);
- margin-right: 10px;
+    transform: scale(1.3);
+    margin-right: 10px;
 
 }
 
 .feedback textarea {
-  width: 450px;
-  height: 100px;
+    width: 450px;
+    height: 100px;
 }
 
 .feedback input[type="text"],
-.feedback input[type="email"]{
+.feedback input[type="email"] {
     width: 190px;
     height: 25px;
 }
 
 .feedback label {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  margin-right: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-right: 50px;
 
 }
 
 .feedback input[type="submit"] {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
 }
 
 .feedback fieldset {
-  border: 3px dotted black;
-  width: 85%;
-  margin: auto;
-  padding: 25px;
-  border-radius: 10px;
-  padding-top: 1px;
-  padding-bottom: 40px;
-  text-align: center;
+    border: 3px dotted black;
+    width: 85%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 
 .feedback legend {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
-  font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 28px;
 }
 
 footer {
@@ -256,7 +250,47 @@ footer {
     font-size: 30px;
 }
 
+.gallery {
+    height: 420px;
+}
 
 
+#productImage {
+    width: 360px;
+    float: right;
+    border: 20px solid white;
+    background: white;
+    padding-bottom: 65px;
+    margin-right: 20px;
+    margin-top: -100px;
+    box-shadow: 0 4px 25px black;
+    height: 300px;
+}
 
+#productGallery li {
+    display: inline;
+    margin-left: -17px;
+}
 
+#productGallery li::before {
+    content: none;
+}
+
+#productGallery a {
+
+    color: rgb(11, 120, 188);
+    font-style: italic;
+
+}
+
+#productGallery a:hover {
+    color: orangered;
+}
+
+#productDescription {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 700px;
+    margin-top: 60px;
+
+}
